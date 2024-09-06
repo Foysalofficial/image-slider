@@ -114,6 +114,18 @@ allprojects {
 	}
 }
 
+```
+or 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        maven { url = uri("https://jitpack.io") }
+        mavenCentral()
+    }
+}
+
 dependencies {
 	implementation ("com.github.Foysalofficial:image-slider:16.0")
 }
