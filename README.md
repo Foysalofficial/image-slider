@@ -23,7 +23,7 @@
 ## Usage
 - Add ImageSlider to your **layout**
 ```xml  
-<com.denzcoskun.imageslider.ImageSlider    
+<com.foysaltech.imageslider.ImageSlider    
      android:id="@+id/image_slider"    
      android:layout_width="wrap_content"    
      android:layout_height="300dp"    
